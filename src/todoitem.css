@@ -1,0 +1,25 @@
+.todo-item {
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.todo-text {
+    overflow-wrap: break-word;
+    margin: 0 8px; /* Adjust margins as needed */
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: transparent;
+    text-align: center;
+    outline: none !important;
+    border: none !important;
+    color: white;
+}
